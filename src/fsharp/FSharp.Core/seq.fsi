@@ -91,7 +91,7 @@ namespace Microsoft.FSharp.Collections
         /// Enumeration of the result sequence is thread safe in the sense that multiple independent IEnumerator
         /// values may be used simultaneously from different threads (accesses to 
         /// the internal lookaside table are thread safe). Each individual IEnumerator
-        /// is not typically thread safe and should not be accessed concurrently.</summary>
+        /// is not typically thread safe and should not be accessed concurrently.
         ///
         /// Once enumeration of the input sequence has started,
         /// it's enumerator will be kept live by this object until the enumeration has completed.
